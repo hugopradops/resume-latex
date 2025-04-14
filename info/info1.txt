@@ -1,0 +1,60 @@
+
+1
+Hugo Prado Serafim Pereirahugo.pradops@gmail.com | linkedin.com/in/hugopradops | github.com/hugopradops | +1 (204) 880-6453
+Summary
+Dedicated Computer Science student with hands-on experience in software development, coding, and
+troubleshooting. Skilled in various programming languages and technologies, with a strong foundation in
+problem-solving and algorithm design.
+Objective
+Aspiring software developer seeking an internship or junior position to apply my skills in programming, system
+design, and problem-solving while contributing to impactful software solutions.
+Education
+University of Guelph Guelph, ON, Canada
+Bachelor of Science in Computer Science (Expected Graduation: 2027)
+Relevant Coursework
+CIS*3750 - System Analysis and Design in Applications: Gained experience in designing and analyzing software
+systems, focusing on real-world applications.
+CIS*3490 - Analysis and Design of Computer Algorithms: Studied algorithm efficiency, complexity analysis, and
+optimization techniques.
+CIS*2750 - Software System Development and Integration: Learned to design and integrate software systems,
+emphasizing teamwork and project management.
+CIS*2520 - Data Structures: Explored data structures like linked lists, trees, and graphs, and their applications in
+software development.
+Technical Skills
+Programming Languages: C, Java, JavaScript, Python, HTML, CSS
+Frameworks and Libraries: React, Next.js
+Databases: SQLite, SQL
+Tools and Technologies: Docker, JSON, YAML, Gradle
+Version Control: Git, GitHub
+Other Skills: Problem Solving, Computer Building and Troubleshooting, Linux Command Line, Teamwork,
+Communication
+Experience
+Food Services Team Member Winnipeg, MB, Canada
+Assiniboine Park Zoo
+◦ Customer Service: Provided excellent customer service.
+◦ Adaptability: Adapted to different roles daily, enhancing flexibility.
+◦ Teamwork: Developed strong communication skills to ensure team success under pressure during high-volume
+times.
+Volunteer Experience
+Tutor Winnipeg, MB, Canada
+Grant Park High School
+◦ Tutoring: Volunteered as a tutor for an exchange student class.
+◦ Empathy: Used communication and empathy to help students succeed in their learning process.
+◦ Commitment: Accumulated over 50 hours of volunteering.
+
+
+
+------------
+Personal Projects
+All of them running on my homelab using Docker and Traefik for reverse proxy.
+
+and you can check them out at https://hub.hugoprado.dev/
+
+Brazilian Food Store Template
+Responsive template for a Brazilian food store using React & Next.js
+
+Ai Learning Homelab
+AI-Learning runs the Gemma3:12b model on my basement homelab using Traefik, Docker, and SQLite for backend management.
+
+Personal Website
+A portfolio website showcasing my projects, skills, and experience, built with modern web technologies.

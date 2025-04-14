@@ -50,7 +50,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{: #2}
   }
 }
 
@@ -59,17 +59,17 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small#4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 % Add color package and define a custom color
 \usepackage{xcolor}
@@ -83,23 +83,15 @@
 %----------HEADING----------
 \begin{center}
   \textbf{\color{myblue} \Huge \scshape Hugo Prado Serafim Pereira} \\ \vspace{1pt}
-  \small \href{mailto:hugo.pradops@gmail.com}{\underline{hugo.pradops@gmail.com}} $|$ 
+  \small \href{mailto:hugop.dev@gmail.com}{\underline{hugop.dev@gmail.com}} $|$ 
   \href{https://www.linkedin.com/in/hugopradops/}{\underline{linkedin.com/in/hugopradops}} $|$
   \href{https://github.com/hugopradops}{\underline{github.com/hugopradops}} $|$
   \href{tel:+12048806453}{\underline{+1 (204) 880-6453}}
 \end{center}
 
-%-----------SUMMARY-----------------
-\section{Summary}
-  \resumeSubHeadingListStart
-    \item Dedicated Computer Science student with hands-on experience in software development, coding, and troubleshooting. Skilled in various programming languages and technologies, with a strong foundation in problem-solving and algorithm design.
-  \resumeSubHeadingListEnd
-
-%-----------OBJECTIVE-----------------
-\section{Objective}
-  \resumeSubHeadingListStart
-    \item Aspiring software developer seeking an internship or junior position to apply my skills in programming, system design, and problem-solving while contributing to impactful software solutions.
-  \resumeSubHeadingListEnd
+%-----------ABOUT ME-----------------
+\section{About Me}
+  A \textbf{Computer Science student} passionate about building innovative software solutions, with a strong foundation in programming and problem-solving. Currently seeking an \textbf{internship} or a \textbf{junior developer role} to apply my skills, contribute to impactful projects, and gain hands-on experience in the tech industry.
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -109,49 +101,50 @@
       {Bachelor of Science in Computer Science (Expected Graduation: 2027)}{}
   \resumeSubHeadingListEnd
 
+%-----------PERSONAL PROJECTS-----------------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Brazilian Food Store Template}{Developed a responsive web template for a Brazilian food store using \textbf{React} and \textbf{Next.js}.}
+    \resumeSubItem{AI Learning Homelab}{Set up and deployed the \textbf{Gemma3:12b} AI model on a homelab environment using \textbf{Traefik}, \textbf{Docker}, and \textbf{SQLite} for backend management.}
+    \resumeSubItem{Personal Website}{Built a portfolio website to showcase projects, skills, and experience using \textbf{Vite}, \textbf{TypeScript}, \textbf{React}, and \textbf{Tailwind CSS}.}
+  \resumeSubHeadingListEnd
+  All projects are hosted on my homelab using Docker and Traefik for reverse proxy management. Live links are available on my personal website at \href{https://hub.hugoprado.dev/}{\underline{hub.hugoprado.dev}}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeItem{Programming Languages}{C, Java, JavaScript, Python, HTML, CSS, TypeScript}
+    \resumeItem{Frameworks and Libraries}{React, Next.js, Node.js, Express.js}
+    \resumeItem{Databases}{SQLite, SQL, MongoDB}
+    \resumeItem{Tools and Technologies}{Docker, JSON, YAML, Gradle, Traefik, Postman, GitHub Actions, Git, GitHub}
+  \resumeSubHeadingListEnd
+
 %-----------RELEVANT COURSEWORK-----------
 \section{Relevant Coursework}
   \resumeSubHeadingListStart
-    \resumeSubItem{CIS*3750 - System Analysis and Design in Applications}{Gained experience in designing and analyzing software systems, focusing on real-world applications.}
+    \resumeSubItem{CIS*3750 - System Analysis and Design in Applications}{Gained experience designing and analyzing software systems with a focus on real-world applications.}
     \resumeSubItem{CIS*3490 - Analysis and Design of Computer Algorithms}{Studied algorithm efficiency, complexity analysis, and optimization techniques.}
     \resumeSubItem{CIS*2750 - Software System Development and Integration}{Learned to design and integrate software systems, emphasizing teamwork and project management.}
     \resumeSubItem{CIS*2520 - Data Structures}{Explored data structures like linked lists, trees, and graphs, and their applications in software development.}
   \resumeSubHeadingListEnd
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
-  \resumeSubHeadingListStart
-    \resumeItem{Programming Languages}{C, Java, JavaScript, Python, HTML, CSS}
-    \resumeItem{Frameworks and Libraries}{React, Next.js}
-    \resumeItem{Databases}{SQLite, SQL}
-    \resumeItem{Tools and Technologies}{Docker, JSON, YAML, Gradle}
-    \resumeItem{Version Control}{Git, GitHub}
-    \resumeItem{Other Skills}{Problem Solving, Computer Building and Troubleshooting, Linux Command Line, Teamwork, Communication}
-  \resumeSubHeadingListEnd
-
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Previous Work and Volunteer Experience}
   \resumeSubHeadingListStart
+    % Volunteer Experience
+    \resumeSubheading
+      {Tutor (Volunteer)}{Winnipeg, MB, Canada}
+      {Grant Park High School}{}
+      \resumeItemListStart
+        \item Volunteered as a tutor for exchange students, helping them succeed academically while completing over 50 hours of service.
+      \resumeItemListEnd
+
+    % Professional Experience
     \resumeSubheading
       {Food Services Team Member}{Winnipeg, MB, Canada}
       {Assiniboine Park Zoo}{}
       \resumeItemListStart
-        \resumeItem{Customer Service}{Provided excellent customer service.}
-        \resumeItem{Adaptability}{Adapted to different roles daily, enhancing flexibility.}
-        \resumeItem{Teamwork}{Developed strong communication skills to ensure team success under pressure during high-volume times.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-%-----------VOLUNTEER EXPERIENCE-----------------
-\section{Volunteer Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Tutor}{Winnipeg, MB, Canada}
-      {Grant Park High School}{}
-      \resumeItemListStart
-        \resumeItem{Tutoring}{Volunteered as a tutor for an exchange student class.}
-        \resumeItem{Empathy}{Used communication and empathy to help students succeed in their learning process.}
-        \resumeItem{Commitment}{Accumulated over 50 hours of volunteering.}
+        \item Collaborated with team members to deliver exceptional service in a fast-paced environment.
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 

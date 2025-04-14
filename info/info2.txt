@@ -1,0 +1,33 @@
+Bellow you have all the classes I already did on guelph so you can add some usefull info about them in my resume.
+
+Dont just adde the classes I did, get some info about them and add to my resume, like the description of the class, what I learned, etc.
+
+Status	Course		Grade	Term	Credits
+ Completed	CIS*1910	Discrete Structures in Comp I	059	F21	0.5
+ Completed	CIS*1300	Programming	081	F21	0.5
+ Completed	MATH*1160	Linear Algebra I	050	W22	0.5
+ Completed	CIS*2910	Discrete Structures in Comp II	059	W22	0.5
+ Completed	CIS*2500	Intermediate Programming	078	W22	0.5
+ Completed	CIS*2520	Data Structures	064	F22	0.5
+ Completed	CIS*2430	Object Oriented Programming	093	F22	0.5
+ Completed	CIS*2750	Software System Dvlmt & Intgrn	068	W23	0.75
+ Completed	CIS*3490	Analysis & Des. of Comp. Algo.	089	W23	0.5
+ Completed	STAT*2040	Statistics I	050	S24	0.5
+ Completed	MATH*1200	Calculus I	065	F24	0.5
+ Completed	CIS*3750	Syst Analysis & Design in App	076	F24	0.75
+ In-Progress	CIS*3760	Software Engineering		W25	0.75
+ Completed	CIS*3130	System Modeling and Sim.	078	F24	0.5
+ In-Progress	CIS*3700	Intro to Intelligent Systems		W25	0.5
+ In-Progress	CIS*3190	Software for Legacy Systems		W25	0.5
+
+More info about me:
+I live in Kitchener 
+2048806453 is my number
+I speak English and Portuguese
+
+I want the coding languages I know 
+to be in the format(looking something like this):
+Technical Skills
+Languages: JavaScript, Python, Rust, C, Go / Golang, Bash, Java, SQL, GraphQL
+Frameworks and Libraries: Node.js, Express.js, React, Apollo, Django, Tensorflow, Pandas, NumPy
+Developer Tools: Git, GitHub Actions, Docker, AWS, Datadog, Kubernetes, MySQL, OpenAPI

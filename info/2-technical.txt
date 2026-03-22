@@ -1,0 +1,51 @@
+TECHNICAL SKILLS
+
+Languages: JavaScript, TypeScript, Python, Rust, C, Java, SQL, HTML, CSS, Bash
+Frameworks & Libraries: React, Next.js, Node.js, Express.js, Tailwind CSS, FastAPI
+Databases: SQLite, SQL, MongoDB, PostgreSQL
+Developer Tools: Git, GitHub, GitHub Actions, Docker, Gradle, Postman
+Infrastructure: Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Linux server administration
+AI Tools: Claude, Ollama (local models), OpenCode CLI
+Other: Computer building/troubleshooting, Linux/Windows/macOS, networking fundamentals
+
+---
+
+PROJECTS
+All projects self-hosted on a homelab (3 machines running Proxmox VMs, Docker,
+Traefik reverse proxy, Cloudflare Tunnels). Live links at: hugoprado.dev
+
+WatchMage — watchmage.hugoprado.dev
+- Mage-themed PC gaming tracking dashboard
+- Built with Next.js, TypeScript, and React
+
+Job Application Tracker — demo-job-tracker.hugoprado.dev
+- Full-stack self-hosted job application tracker to manage search pipeline from applied to offer
+- Built with React, FastAPI, PostgreSQL, and Docker
+
+Personal Website — hugoprado.dev
+- Portfolio site showcasing projects, skills, blog posts, and experience
+- Built with Vite, TypeScript, React, and Tailwind CSS
+
+Brazilian Food Store Template — brazilfood.hugoprado.dev
+- Responsive web template for a Brazilian food store
+- Built with HTML, CSS, and JavaScript
+
+Rustic Notes
+- Cross-platform terminal notes app, alternative to PICO/NANO with better UI
+- Built with Rust and TUI framework
+
+AI Learning Homelab
+- Deployed Gemma3:12b AI model on basement homelab
+- Uses Traefik, Docker, and SQLite for backend management
+
+toremember.gift (In Progress)
+- E-commerce website for family 3D printing business
+- Converting from Facebook Marketplace sales to a dedicated web store
+
+---
+
+HOMELAB & INFRASTRUCTURE
+- 3 self-hosted machines running Proxmox with VMs
+- All projects deployed using Docker containers managed via Dokploy
+- Traefik as reverse proxy, Cloudflare Tunnels for public access
+- Hands-on experience with server administration, networking, and deployment pipelines

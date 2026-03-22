@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Hugo Prado Serafim Pereira
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & \small #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\definecolor{myblue}{RGB}{25, 25, 112}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\color{myblue} \Huge \scshape Hugo Prado} \\ \vspace{1pt}
+  \small
+  \href{mailto:hugop.dev@gmail.com}{\underline{hugop.dev@gmail.com}} $|$
+  \href{https://www.hugoprado.dev}{\underline{hugoprado.dev}} $|$
+  \href{https://www.linkedin.com/in/hugopradops/}{\underline{linkedin.com/in/hugopradops}} $|$
+  \href{https://github.com/hugopradops}{\underline{github.com/hugopradops}}
+\end{center}
+
+%-----------ABOUT ME-----------------
+\section{About Me}
+  \small{Hardworking Computer Science student based in Kitchener, ON, Canada, seeking a junior or new graduate software developer position. Passionate about building and self-hosting full-stack applications, with hands-on experience across the entire development lifecycle.}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Guelph}{Guelph, ON, Canada}
+      {Bachelor of Computing (B.Comp.) in Computer Science}{Expected Oct 2026}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \small{All projects self-hosted on a homelab (3 machines, Proxmox, Docker, Traefik, Cloudflare Tunnels). See all projects and more about me at \href{https://www.hugoprado.dev}{\underline{hugoprado.dev}}.}
+  \vspace{-2pt}
+  \resumeSubHeadingListStart
+    \resumeSubItem{WatchMage \textnormal{-- \href{https://watchmage.hugoprado.dev}{\underline{watchmage.hugoprado.dev}}} \textnormal{$|$ \emph{Next.js, TypeScript, React}}}{Mage-themed PC gaming tracking dashboard with dynamic data display and responsive UI.}
+    \resumeSubItem{Job Application Tracker \textnormal{-- \href{https://demo-job-tracker.hugoprado.dev}{\underline{demo-job-tracker.hugoprado.dev}}} \textnormal{$|$ \emph{React, FastAPI, PostgreSQL, Docker}}}{Full-stack self-hosted tracker to manage job search pipeline from applied to offer.}
+    \resumeSubItem{Rustic Notes \textnormal{$|$ \emph{Rust, TUI}}}{Cross-platform terminal notes app as a faster alternative to PICO/NANO with an improved UI.}
+    \resumeSubItem{toremember.gift \textnormal{-- \href{https://www.toremember.gift}{\underline{toremember.gift}}} \textnormal{$|$ \emph{In Progress}}}{E-commerce site for a family 3D printing business, migrating from Facebook Marketplace.}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeItem{Languages}{JavaScript, TypeScript, Python, Rust, C, Java, SQL, HTML, CSS, Bash}
+    \resumeItem{Frameworks \& Libraries}{React, Next.js, Node.js, Express.js, Tailwind CSS, FastAPI}
+    \resumeItem{Databases}{PostgreSQL, SQLite, MongoDB}
+    \resumeItem{Developer Tools}{Git, GitHub, GitHub Actions, Docker, Postman, Gradle}
+    \resumeItem{Infrastructure}{Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Linux server administration}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {3D Printing Business}{Kitchener, ON, Canada}
+      {toremember.gift -- Family-run Personalized Gifts \& Keepsakes}{}
+      \resumeItemListStart
+        \item\small{Assisted a family-run 3D printing business alongside studies: handled machine maintenance, multi-material printing, order fulfillment, and deliveries.}
+        \item\small{Building a dedicated e-commerce website to help transition the business from Facebook Marketplace to an online storefront.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Food Services Team Member}{Winnipeg, MB, Canada}
+      {Assiniboine Park Zoo}{}
+      \resumeItemListStart
+        \item\small{Delivered service in a fast-paced, high-volume environment, adapting to different roles daily.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tutor (Volunteer)}{Winnipeg, MB, Canada}
+      {Grant Park High School}{}
+      \resumeItemListStart
+        \item\small{Tutored exchange students for over 50 hours, helping them succeed academically.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RELEVANT COURSEWORK-----------
+\section{Relevant Coursework}
+  \vspace{2pt}
+  \small{
+    Data Science $\cdot$
+    Software Engineering $\cdot$
+    System Analysis \& Design $\cdot$
+    Intro to Intelligent Systems $\cdot$
+    Analysis \& Design of Algorithms $\cdot$
+    Software System Dev \& Integration $\cdot$
+    Data Structures $\cdot$
+    Object Oriented Programming
+  }
+
+%-------------------------------------------
+\end{document}

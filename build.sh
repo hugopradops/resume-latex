@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pdflatex hugoprado.tex
+pdflatex hugoprado-resume.tex

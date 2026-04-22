@@ -3,9 +3,11 @@ RELEVANT COURSEWORK (University of Guelph)
 --- Currently Taking (Winter 2026) ---
 
 CIS*1050 — Web Design & Development
-CIS*2170 — User Interface Design
 
 --- Completed (Most Relevant) ---
+
+CIS*2170 — User Interface Design (W26)
+  Principles of UI design, usability, accessibility, and interaction
 
 CIS*3760 — Software Engineering (W25)
   Team-based software engineering practices, agile development, version control workflows

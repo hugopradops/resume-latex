@@ -6,7 +6,8 @@ Databases: SQLite, SQL, MongoDB, PostgreSQL
 Developer Tools: Git, GitHub, GitHub Actions, Docker, Gradle, Postman
 Infrastructure: Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Linux server administration
 AI Tools: Claude, Ollama (local models), OpenCode CLI
-Other: Computer building/troubleshooting, Linux/Windows/macOS, networking fundamentals
+Office & Productivity: Microsoft Office 365 (Word, Excel, PowerPoint, Outlook), Google Workspace
+Hardware & IT: PC building and upgrades, hardware troubleshooting, server maintenance, peripheral setup; Linux/Windows/macOS; networking fundamentals
 
 ---
 

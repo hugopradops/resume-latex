@@ -4,6 +4,9 @@ Archieve/
 # Tailored resumes for specific applications (kept locally, not versioned)
 tailored-resumes/
 
+# Job search notes and leads (kept locally, not versioned)
+job-search/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

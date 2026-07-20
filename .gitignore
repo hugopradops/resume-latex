@@ -23,3 +23,6 @@ job-search/
 
 # github action result
 semicolon_delimited_script
+
+# macOS
+.DS_Store

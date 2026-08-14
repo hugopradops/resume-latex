@@ -1,11 +1,13 @@
 TECHNICAL SKILLS
 
-Languages: JavaScript, TypeScript, Python, Rust, C, Java, SQL, HTML, CSS, Bash
-Frameworks & Libraries: React, Next.js, Node.js, Express.js, Tailwind CSS, FastAPI
+Languages: JavaScript, TypeScript, PHP, Python, C, Java, SQL, HTML, CSS, Bash
+  (Rust intentionally omitted — Rustic Notes was pulled from the resume, so nothing on the
+   page supports it. Re-add only alongside a Rust project you're ready to discuss.)
+Frameworks & Libraries: React, Next.js, Svelte, Node.js, Express.js, Tailwind CSS, FastAPI
 Databases: SQLite, SQL, MongoDB, PostgreSQL
-Developer Tools: Git, GitHub, GitHub Actions, Docker, Gradle, Postman
-Infrastructure: Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Linux server administration
-AI Tools: Claude, Ollama (local models), OpenCode CLI
+Developer Tools: Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vitest, Gradle, Postman
+Infrastructure: Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Nginx, Linux server administration
+AI Tools: Claude, Ollama (local models), LM Studio, OpenCode CLI, LLM API integration
 Office & Productivity: Microsoft Office 365 (Word, Excel, PowerPoint, Outlook), Google Workspace
 Hardware & IT: PC building and upgrades, hardware troubleshooting, server maintenance, peripheral setup; Linux/Windows/macOS; networking fundamentals
 
@@ -27,7 +29,7 @@ Personal Website — hugoprado.dev
 - Portfolio site showcasing projects, skills, blog posts, and experience
 - Built with Vite, TypeScript, React, and Tailwind CSS
 
-Brazilian Food Store Template — brazilfood.hugoprado.dev
+Brazilian Food Store Template — brazilianflavors.hugoprado.dev
 - Responsive web template for a Brazilian food store
 - Built with HTML, CSS, and JavaScript
 
@@ -38,10 +40,6 @@ Rustic Notes
 AI Learning Homelab
 - Deployed Gemma3:12b AI model on basement homelab
 - Uses Traefik, Docker, and SQLite for backend management
-
-toremember.gift (In Progress)
-- E-commerce website for family 3D printing business
-- Converting from Facebook Marketplace sales to a dedicated web store
 
 ---
 

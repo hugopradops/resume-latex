@@ -25,7 +25,9 @@ Requires `pdflatex` installed locally. Output is `hugoprado-resume.pdf`. Build a
 
 - Resume must remain **single-page, one-column**. All content fits on one letter-sized page.
 - ATS parsability is enabled via `\pdfgentounicode=1` and `glyphtounicode`.
-- Sections on the main resume: Heading, About Me, Education, Projects, Technical Skills, Experience, Relevant Coursework.
+- Sections on the main resume, in order: Heading, About Me, Experience, Projects, Technical Skills, Education, Relevant Coursework.
+- The main `.tex` is the *dev* resume: non-technical roles (food service, tutoring) live in `info/` and in tailored variants only, never here.
+- Every URL printed on the resume must return 200 before the PDF is sent anywhere.
 - When updating resume content, keep `info/` text files in sync as the canonical source of truth.
 
 ## Tailored Resumes (Per-Application Workflow)

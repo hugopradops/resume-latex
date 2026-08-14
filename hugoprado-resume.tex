@@ -95,38 +95,7 @@
 
 %-----------ABOUT ME-----------------
 \section{About Me}
-  \small{Hardworking Computer Science graduate and Software Engineer Intern based in Kitchener, ON, Canada, seeking a junior or new graduate software developer position. Passionate about building and self-hosting full-stack applications and integrating LLMs into real-world products, with hands-on experience across the entire development lifecycle.}
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Guelph}{Guelph, ON, Canada}
-      {Bachelor of Computing (B.Comp.), Computer Science}{Sep 2023 -- Aug 2026}
-  \resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \small{All projects self-hosted on a homelab (3 machines, Proxmox, Docker, Traefik, Cloudflare Tunnels). See all projects and more about me at \href{https://www.hugoprado.dev}{\underline{www.hugoprado.dev}}.}
-  \vspace{-2pt}
-  \resumeSubHeadingListStart
-    \resumeSubItem{WatchMage \textnormal{-- \href{https://watchmage.hugoprado.dev}{\underline{watchmage.hugoprado.dev}}} \textnormal{$|$ \emph{Next.js, TypeScript, React}}}{Mage-themed PC gaming tracking dashboard with dynamic data display and responsive UI.}
-    \resumeSubItem{Job Application Tracker \textnormal{-- \href{https://demo-job-tracker.hugoprado.dev}{\underline{demo-job-tracker.hugoprado.dev}}} \textnormal{$|$ \emph{React, FastAPI, PostgreSQL, Docker}}}{Full-stack self-hosted tracker to manage job search pipeline from applied to offer.}
-    \resumeSubItem{Rustic Notes \textnormal{$|$ \emph{Rust, TUI}}}{Cross-platform terminal notes app as a faster alternative to PICO/NANO with an improved UI.}
-    \resumeSubItem{Brazilian Flavors \textnormal{-- \href{https://brazilianflavors.hugoprado.dev}{\underline{brazilianflavors.hugoprado.dev}}} \textnormal{$|$ \emph{HTML, CSS, JavaScript}}}{Responsive template for a Brazilian food store.}
-  \resumeSubHeadingListEnd
-
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
-  \resumeSubHeadingListStart
-    \resumeItem{Languages}{JavaScript, TypeScript, PHP, Python, Rust, C, Java, SQL, HTML, CSS, Bash}
-    \resumeItem{Frameworks \& Libraries}{React, Next.js, Svelte, Node.js, Express.js, Tailwind CSS, FastAPI}
-    \resumeItem{Databases}{PostgreSQL, SQLite, MongoDB}
-    \resumeItem{Developer Tools}{Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Postman, Gradle}
-    \resumeItem{Practices}{Software Development Best Practices, Testing, Debugging}
-    \resumeItem{AI \& LLMs}{Claude, Ollama, LM Studio, LLM API integration, prompt engineering, AI-assisted development}
-    \resumeItem{Infrastructure}{Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Linux server administration}
-  \resumeSubHeadingListEnd
+  \small{Computer Science graduate (University of Guelph) and Software Engineer Intern based in Kitchener, ON. Full-stack development in TypeScript, Python, and PHP, with every personal project self-hosted and shipped to production on a 3-machine homelab running Docker, Traefik, and Cloudflare Tunnels.}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -137,44 +106,59 @@
       \resumeItemListStart
         \item\small{Develop and maintain full-stack features across a PHP backend and a Svelte/TypeScript frontend within a containerized Docker environment.}
         \item\small{Build responsive UI with Svelte, TypeScript, and CSS, and streamline development workflows using Shell scripts and Makefiles.}
-        \item\small{Leverage AI-assisted development tools to accelerate feature delivery, debugging, and code review.}
+        % TODO(hugo): replace with a concrete, countable win -- e.g. "Shipped N features across
+        % X releases", "cut local environment setup from N min to M", "reviewed N PRs".
+        \item\small{Ship features through code review to production release, working from ticket to merge in an established team workflow.}
       \resumeItemListEnd
 
+    % NOTE: non-technical role. Hugo did NOT build toremember.gift -- never add a
+    % development bullet or a hyperlink to this entry.
     \resumeSubheading
-      {3D Printing Business}{Kitchener, ON, Canada}
-      {toremember.gift -- Family-run Personalized Gifts \& Keepsakes}{Nov 2025 -- Present}
+      {3D Printing Production}{Kitchener, ON, Canada}
+      {toremember.gift -- Family-run Personalized Gifts \& Keepsakes}{Nov 2025 -- Jun 2026}
       \resumeItemListStart
-        \item\small{Assist a family-run 3D printing business alongside studies: machine maintenance, multi-material printing, order fulfillment, and deliveries.}
+        \item\small{Ran production and fulfillment for a family-run 3D printing business alongside full-time studies: multi-material printing, machine maintenance, order fulfillment, and deliveries.}
       \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
-    \resumeSubheading
-      {Food Services Team Member}{Winnipeg, MB, Canada}
-      {Assiniboine Park Conservancy (Zoo) -- Seasonal}{Jun 2021 -- Aug 2021}
-      \resumeItemListStart
-        \item\small{Delivered service in a fast-paced, high-volume environment, adapting to different roles daily.}
-      \resumeItemListEnd
+%-----------PROJECTS-----------------
+\section{Projects}
+  \small{Self-hosted end-to-end on a 3-machine homelab (Proxmox VMs, Docker, Traefik reverse proxy, Cloudflare Tunnels, Dokploy). More at \href{https://www.hugoprado.dev}{\underline{www.hugoprado.dev}}.}
+  \vspace{-2pt}
+  \resumeSubHeadingListStart
+    \resumeSubItem{WatchMage \textnormal{-- \href{https://watchmage.hugoprado.dev}{\underline{watchmage.hugoprado.dev}}} \textnormal{$|$ \emph{Next.js, TypeScript, React, Vitest}}}{PC gaming dashboard aggregating 4 live sources (Steam store and appdetails APIs, 3 news RSS feeds) behind cached API routes; 13k+ lines with unit and component test coverage.}
+    \resumeSubItem{Job Application Tracker \textnormal{-- \href{https://demo-job-tracker.hugoprado.dev}{\underline{demo-job-tracker.hugoprado.dev}}} \textnormal{$|$ \emph{React, FastAPI, PostgreSQL, Docker}}}{Full-stack pipeline tracker with JWT auth, async SQLAlchemy, and Alembic migrations, deployed via Docker Compose behind Nginx.}
+    \resumeSubItem{AI Homelab \textnormal{$|$ \emph{Ollama, Docker, Traefik, SQLite}}}{Self-hosted a 12B-parameter LLM (Gemma 3) on personal hardware and exposed it as a private, reverse-proxied service for local AI experiments.}
+  \resumeSubHeadingListEnd
 
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeItem{Languages}{JavaScript, TypeScript, PHP, Python, C, Java, SQL, HTML, CSS, Bash}
+    \resumeItem{Frameworks \& Libraries}{React, Next.js, Svelte, Node.js, Express.js, Tailwind CSS, FastAPI}
+    \resumeItem{Databases}{PostgreSQL, SQLite, MongoDB}
+    \resumeItem{Developer Tools}{Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vitest, Postman}
+    \resumeItem{AI \& LLMs}{LLM API integration, local model deployment (Ollama, LM Studio), prompt engineering, AI-assisted development}
+    \resumeItem{Infrastructure}{Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Nginx, Linux server administration}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
     \resumeSubheading
-      {Tutor (Volunteer)}{Winnipeg, MB, Canada}
-      {Grant Park High School}{2019 -- 2021}
-      \resumeItemListStart
-        \item\small{Tutored exchange students for over 50 hours, helping them succeed academically.}
-      \resumeItemListEnd
+      {University of Guelph}{Guelph, ON, Canada}
+      {Bachelor of Computing (B.Comp.), Computer Science}{Sep 2021 -- Aug 2026}
   \resumeSubHeadingListEnd
 
 %-----------RELEVANT COURSEWORK-----------
 \section{Relevant Coursework}
   \vspace{2pt}
   \small{
-    Data Science $\cdot$
     Software Engineering $\cdot$
-    System Analysis \& Design $\cdot$
-    User Interface Design $\cdot$
-    Intro to Intelligent Systems $\cdot$
+    Data Science $\cdot$
     Analysis \& Design of Algorithms $\cdot$
-    Software System Dev \& Integration $\cdot$
-    Data Structures $\cdot$
-    Object Oriented Programming
+    User Interface Design $\cdot$
+    Software System Dev \& Integration
   }
 
 %-------------------------------------------

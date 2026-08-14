@@ -9,7 +9,7 @@ Canadian citizen | Fluent in English and Portuguese
 
 EDUCATION
 University of Guelph — Bachelor of Computing (B.Comp.), Computer Science
-Sep 2021 – Oct 2026 (expected)
+Sep 2021 – Aug 2026
 Total Credits Completed: 14.75 (12.25 at Guelph + 2.5 transfer)
 
 Winnipeg School Division — High School Diploma
@@ -27,10 +27,18 @@ projects. Strong communicator, reliable, patient, and a natural problem-solver.
 
 WORK & VOLUNTEER EXPERIENCE
 
-3D Printing Production — toremember.gift / Family-run 3D Printing Business (Self-employed), Kitchener, ON
-Nov 2025 – Present
-- Assist a family-run 3D printing business alongside studies: machine maintenance, multi-material printing, order fulfillment, and deliveries
-- Sell on Facebook Marketplace; currently building a dedicated website
+Junior Software Engineer Intern — IDT, Remote
+Jun 2026 – Present
+- Develop and maintain full-stack features across a PHP backend and a Svelte/TypeScript frontend in a containerized Docker environment
+- Build responsive UI with Svelte, TypeScript, and CSS; streamline development workflows with Shell scripts and Makefiles
+- Ship features through code review to production release, working from ticket to merge in an established team workflow
+- Use AI-assisted development tooling for feature delivery, debugging, and code review
+
+3D Printing Production — Family-run 3D Printing Business (Self-employed), Kitchener, ON
+Nov 2025 – Jun 2026
+NOTE: non-technical role. Hugo did NOT build toremember.gift — claim no development credit for
+that site anywhere (resume, personal website, or cover letters). No dev bullet, no hyperlink.
+- Ran production and fulfillment alongside studies: multi-material printing, machine maintenance, order fulfillment, and deliveries
 
 Food Services Team Member — Assiniboine Park Conservancy (Zoo), Winnipeg, MB (Seasonal)
 Jun 2021 – Aug 2021

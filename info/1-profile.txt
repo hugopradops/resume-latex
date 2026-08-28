@@ -1,7 +1,7 @@
 Hugo Prado Serafim Pereira
-hugop.dev@gmail.com | +1 (204) 880-6453
-LinkedIn: linkedin.com/in/hugopradops
-GitHub: github.com/hugopradops
+hugopsp.dev@gmail.com | +1 (204) 880-6453
+LinkedIn: linkedin.com/in/hugopsp
+GitHub: github.com/hugopsp
 Location: Kitchener, ON, Canada
 Canadian citizen | Fluent in English and Portuguese
 
@@ -10,6 +10,7 @@ Canadian citizen | Fluent in English and Portuguese
 EDUCATION
 University of Guelph — Bachelor of Computing (B.Comp.), Computer Science
 Sep 2021 – Aug 2026
+Graduated August 2026 (degree conferred; convocation ceremony October 2026)
 Total Credits Completed: 14.75 (12.25 at Guelph + 2.5 transfer)
 
 Winnipeg School Division — High School Diploma
@@ -18,21 +19,29 @@ Sep 2018 – May 2021
 ---
 
 ABOUT ME
-Computer Science student with hands-on experience building and deploying full-stack
+Computer Science graduate with hands-on experience building and deploying full-stack
 web applications, managing self-hosted infrastructure, and working with AI tools.
-Seeking an internship or junior developer role to contribute to impactful software
-projects. Strong communicator, reliable, patient, and a natural problem-solver.
+Strong communicator, reliable, patient, and a natural problem-solver.
 
 ---
 
 WORK & VOLUNTEER EXPERIENCE
 
-Junior Software Engineer Intern — IDT, Remote
-Jun 2026 – Present
-- Develop and maintain full-stack features across a PHP backend and a Svelte/TypeScript frontend in a containerized Docker environment
-- Build responsive UI with Svelte, TypeScript, and CSS; streamline development workflows with Shell scripts and Makefiles
-- Ship features through code review to production release, working from ticket to merge in an established team workflow
+Junior Software Developer — IDT, Remote
+Sep 2026 – Present
+(Promoted from Junior Software Engineer Intern, Jun 2026 – Aug 2026)
+- Built an approval-gated internal portal for Ad Ops to adjust per-supply-tag ad request pacing
+  (backoff seconds), with a role-based workflow (user submits, admin/root approves) and a full audit trail
+- Backend: PHP 8.3 / Slim 4, API-only service (/api/*) layered into Domain / Infrastructure / Http,
+  PostgreSQL for base config and Redis for overrides, hand-wired DI, OpenAPI spec, Google OIDC sign-in
+- Frontend: standalone Svelte 5 + TypeScript (Vite) SPA with runes-based stores and a typed API client,
+  served same-origin behind Nginx (no CORS)
+- Testing & delivery: PHPUnit unit tests and Testcontainers integration suites, Vitest frontend coverage;
+  shipped via Docker/tarball builds with CI running lint, PHPStan, and tests
+- Develop and maintain full-stack features across a PHP backend and a Svelte/TypeScript frontend in a
+  containerized Docker environment; ship from ticket to merge through code review to production release
 - Use AI-assisted development tooling for feature delivery, debugging, and code review
+NOTE: keep internal-project detail at this level — no client names, metrics, or internal system names.
 
 3D Printing Production — Family-run 3D Printing Business (Self-employed), Kitchener, ON
 Nov 2025 – Jun 2026

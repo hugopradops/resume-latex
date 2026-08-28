@@ -87,28 +87,27 @@
 \begin{center}
   \textbf{\Huge \scshape Hugo Prado} \\ \vspace{1pt}
   \small
-  \href{mailto:hugop.dev@gmail.com}{\underline{hugop.dev@gmail.com}} $|$
+  \href{mailto:hugopsp.dev@gmail.com}{\underline{hugopsp.dev@gmail.com}} $|$
   \href{https://www.hugoprado.dev}{\underline{www.hugoprado.dev}} $|$
-  \href{https://www.linkedin.com/in/hugopradops/}{\underline{linkedin.com/in/hugopradops}} $|$
-  \href{https://github.com/hugopradops}{\underline{github.com/hugopradops}}
+  \href{https://www.linkedin.com/in/hugopsp/}{\underline{linkedin.com/in/hugopsp}} $|$
+  \href{https://github.com/hugopsp}{\underline{github.com/hugopsp}}
 \end{center}
 
 %-----------ABOUT ME-----------------
 \section{About Me}
-  \small{Computer Science graduate (University of Guelph) and Software Engineer Intern based in Kitchener, ON. Full-stack development in TypeScript, Python, and PHP, with every personal project self-hosted and shipped to production on a 3-machine homelab running Docker, Traefik, and Cloudflare Tunnels.}
+  \small{Computer Science graduate (University of Guelph) and Junior Software Developer based in Kitchener, ON. Full-stack development in TypeScript, Python, and PHP, with every personal project self-hosted and shipped to production on a 3-machine homelab running Docker, Traefik, and Cloudflare Tunnels.}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Junior Software Engineer Intern}{Remote}
-      {IDT}{Jun 2026 -- Present}
+      {Junior Software Developer}{Remote}
+      {IDT \textnormal{(promoted from Junior Software Engineer Intern, Jun 2026 -- Aug 2026)}}{Jun 2026 -- Present}
       \resumeItemListStart
-        \item\small{Develop and maintain full-stack features across a PHP backend and a Svelte/TypeScript frontend within a containerized Docker environment.}
-        \item\small{Build responsive UI with Svelte, TypeScript, and CSS, and streamline development workflows using Shell scripts and Makefiles.}
-        % TODO(hugo): replace with a concrete, countable win -- e.g. "Shipped N features across
-        % X releases", "cut local environment setup from N min to M", "reviewed N PRs".
-        \item\small{Ship features through code review to production release, working from ticket to merge in an established team workflow.}
+        \item\small{Built an approval-gated internal portal for the Ad Ops team to adjust per-supply-tag ad request pacing, with a role-based submit/approve workflow and a full audit trail.}
+        \item\small{Backend in PHP 8.3 / Slim 4: an API-only service layered into Domain / Infrastructure / Http, with PostgreSQL for base config, Redis for overrides, hand-wired DI, an OpenAPI spec, and Google OIDC sign-in.}
+        \item\small{Frontend in Svelte 5 + TypeScript (Vite): a standalone SPA with runes-based stores and a typed API client, served same-origin behind Nginx.}
+        \item\small{Covered by PHPUnit unit and Testcontainers integration suites plus Vitest, shipped via Docker builds with CI running lint, PHPStan, and tests.}
       \resumeItemListEnd
 
     % NOTE: non-technical role. Hugo did NOT build toremember.gift -- never add a
@@ -135,9 +134,9 @@
 \section{Technical Skills}
   \resumeSubHeadingListStart
     \resumeItem{Languages}{JavaScript, TypeScript, PHP, Python, C, Java, SQL, HTML, CSS, Bash}
-    \resumeItem{Frameworks \& Libraries}{React, Next.js, Svelte, Node.js, Express.js, Tailwind CSS, FastAPI}
-    \resumeItem{Databases}{PostgreSQL, SQLite, MongoDB}
-    \resumeItem{Developer Tools}{Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vitest, Postman}
+    \resumeItem{Frameworks \& Libraries}{React, Next.js, Svelte 5, Node.js, Express.js, Tailwind CSS, FastAPI, Slim 4}
+    \resumeItem{Databases}{PostgreSQL, Redis, SQLite, MongoDB}
+    \resumeItem{Developer Tools}{Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vite, Vitest, PHPUnit, PHPStan, Postman}
     \resumeItem{AI \& LLMs}{LLM API integration, local model deployment (Ollama, LM Studio), prompt engineering, AI-assisted development}
     \resumeItem{Infrastructure}{Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Nginx, Linux server administration}
   \resumeSubHeadingListEnd
@@ -147,7 +146,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Guelph}{Guelph, ON, Canada}
-      {Bachelor of Computing (B.Comp.), Computer Science}{Sep 2021 -- Aug 2026}
+      {Bachelor of Computing (B.Comp.), Computer Science}{Sep 2021 -- Aug 2026 (Graduated)}
   \resumeSubHeadingListEnd
 
 %-----------RELEVANT COURSEWORK-----------

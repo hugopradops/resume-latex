@@ -3,9 +3,9 @@ TECHNICAL SKILLS
 Languages: JavaScript, TypeScript, PHP, Python, C, Java, SQL, HTML, CSS, Bash
   (Rust intentionally omitted — Rustic Notes was pulled from the resume, so nothing on the
    page supports it. Re-add only alongside a Rust project you're ready to discuss.)
-Frameworks & Libraries: React, Next.js, Svelte, Node.js, Express.js, Tailwind CSS, FastAPI
-Databases: SQLite, SQL, MongoDB, PostgreSQL
-Developer Tools: Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vitest, Gradle, Postman
+Frameworks & Libraries: React, Next.js, Svelte 5, Node.js, Express.js, Tailwind CSS, FastAPI, Slim 4
+Databases: PostgreSQL, SQLite, SQL, MongoDB, Redis
+Developer Tools: Git, GitHub, GitHub Actions, CI/CD, Docker, Make, Vite, Vitest, PHPUnit, PHPStan, Testcontainers, OpenAPI/Swagger, Gradle, Postman
 Infrastructure: Proxmox, Traefik, Cloudflare Tunnels, Dokploy, Nginx, Linux server administration
 AI Tools: Claude, Ollama (local models), LM Studio, OpenCode CLI, LLM API integration
 Office & Productivity: Microsoft Office 365 (Word, Excel, PowerPoint, Outlook), Google Workspace

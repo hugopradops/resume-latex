@@ -1,9 +1,5 @@
 RELEVANT COURSEWORK (University of Guelph)
 
---- Currently Taking (Winter 2026) ---
-
-CIS*1050 — Web Design & Development
-
 --- Completed (Most Relevant) ---
 
 CIS*2170 — User Interface Design (W26)
@@ -44,6 +40,7 @@ CIS*2500 — Intermediate Programming (W22)
 
 --- Supporting Courses ---
 
+CIS*1050 — Web Design & Development (W26)
 CIS*1300 — Programming (F21)
 CIS*1910 — Discrete Structures in Computing I (F21)
 CIS*2910 — Discrete Structures in Computing II (W22)
